@@ -69,11 +69,11 @@ export default function App() {
                 disabled={count === 0}
                 activeOpacity={0.7}
             >
-                <Text style={styles.resetButtonText}>Reiniciar</Text>
+                <Text style={styles.resetButtonText}>hjj</Text>
             </TouchableOpacity>
         </View>
       </View>
-      <Text style={styles.footerText}>Hecho con React Native!!!!</Text>
+      <Text style={styles.footerText}>Hecho con React!</Text>
     </View>
   );
 };
