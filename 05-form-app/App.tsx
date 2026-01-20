@@ -1,10 +1,10 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import { TOTAL_STEPS, usePersonForm } from './src/state/usePersonForm';
-import { SummaryScreen } from './src/screens/SummaryScreen';
-import { PersonalInfoScreen } from './src/screens/PersonalInfoScreen';
-import { ContactInfoScreen } from './src/screens/ContactInfoScreen';
+import { TOTAL_STEPS, usePersonForm } from './state/usePersonForm';
+import { SummaryScreen } from './screens/SummaryScreen';
+import { PersonalInfoScreen } from './screens/PersonalInfoScreen';
+import { ContactInfoScreen } from './screens/ContactInfoScreen';
 
 export default function App() {
   const { person, step, updateField, nextStep, reset } = usePersonForm();
